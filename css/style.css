@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Arial', sans-serif;
     background-color: #ffffff;
     color: #1a1a1a;
 }
@@ -175,3 +175,136 @@ body {
     color: #000000; 
     font-weight: bold;
 }
+
+ .main-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .left-section, .right-section {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  strong {
+    font-size: 20px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .continue-btn {
+    background-color: #e67e22;
+    color: white;
+  }
+  
+  .continue-btn:nth-child(2) {
+    background-color: #333;
+  }
+  
+  .continue-btn:nth-child(3) {
+    background-color: #3498db;
+  }
+  
+  .continue-btn:hover {
+    opacity: 0.9;
+  }
+  
+  .launch-btn {
+    background-color: #2c3e50;
+    color: white;
+  }
+  
+  .launch-btn:hover {
+    opacity: 0.9;
+  }
+  
+  .prefix {
+    background-color: #f1c40f;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .lang-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .lang-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .lang-icon {
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+  }
+  
+  .node-ts { background: url('https://via.placeholder.com/24/8bc34a?text=TS'); }
+  .python { background: url('https://via.placeholder.com/24/ffd43b?text=Py'); }
+  .go { background: url('https://via.placeholder.com/24/00add8?text=Go'); }
+  .rust { background: url('https://via.placeholder.com/24/000000?text=Rs'); }
+  .java { background: url('https://via.placeholder.com/24/5382d7?text=Ja'); }
+  .svelte { background: url('https://via.placeholder.com/24/ff3e00?text=Sv'); }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .footer-section {
+    flex: 1;
+  }
+  
+  .footer-section h4 {
+    font-size: 16px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p {
+    font-size: 12px;
+    color: #7f8c8d;
+    margin-bottom: 5px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    color: #7f8c8d;
+    font-size: 12px;
+  }
+
+    
